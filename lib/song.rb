@@ -26,5 +26,8 @@ class Song
   end
   
   def self.genre_count
-    genre_count 
+    genre_count = {}
+    
+  # iterate over @@genres & add key/value pairs to genre_count hash
+  
 end
