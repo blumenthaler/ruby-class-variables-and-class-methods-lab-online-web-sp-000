@@ -27,7 +27,9 @@ class Song
   
   def self.genre_count
     genre_count = Hash.new(0)
-    @@genres 
+    @@genres.each do |genre|
+      
+    end
     
   # iterate over @@genres & add key/value pairs to genre_count hash
   # check if the hash already contains key of a genre
