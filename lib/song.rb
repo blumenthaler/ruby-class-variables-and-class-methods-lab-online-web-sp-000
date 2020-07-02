@@ -25,11 +25,14 @@ class Song
     @@artists.uniq
   end
   
+
+  
   def self.genre_count
     genre_count = Hash.new(0)
     @@genres.each do |genre|
       genre_count[genre] += 1
     end
+    genre_count
   end
     genre_count
   # iterate over @@genres & add key/value pairs to genre_count hash
