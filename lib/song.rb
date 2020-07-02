@@ -26,7 +26,8 @@ class Song
   end
   
   def self.genre_count
-    genre_count = Hash.new
+    genre_count = Hash.new(0)
+    @@genres 
     
   # iterate over @@genres & add key/value pairs to genre_count hash
   # check if the hash already contains key of a genre
