@@ -29,5 +29,7 @@ class Song
     genre_count = {}
     
   # iterate over @@genres & add key/value pairs to genre_count hash
-  
+  # check if the hash already contains key of a genre
+    # if it does, increment the value of the key by one
+    # if it doesnt, create new key/value pair
 end
